@@ -1,0 +1,299 @@
+#wrap {
+    width: 100%;
+}
+
+/* 상단 */
+#header {
+    width: 100%;
+    height: 120px;
+    /* background-color: #ccc; */
+}
+
+#header_in {
+    margin: 0 auto;
+    width: 1300px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+#header_in .logo {
+    float: left;
+    margin-top: 20px;
+}
+
+#header_in .infomn {
+    position: absolute;
+    top: 20px;
+    right: 26px;
+}
+
+#header_in .infomn li {
+    float: left;
+    margin-left: 27px;
+}
+
+#header_in .infomn li a {
+    font-size: 12px;
+}
+
+#header_in .nav {
+    float: right;
+    margin: 65px 0 0 0;
+    position: relative;
+}
+
+#header_in .nav>ul>li {
+    float: left;
+    margin-left: 40px;
+    position: relative;
+    width: 100px;
+    height: 10px;
+}
+
+#header_in .nav>ul>li:nth-child(4) {
+    padding-right: 20px;
+}
+
+
+#header_in .nav>ul>li>a {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#header_in .sub {
+    position: absolute;
+    top: 60px;
+    left: -52px;
+    text-align: start;
+    z-index: 1000;
+}
+
+#header_in .sub>li {
+
+    text-align: center;
+    width: 150px;
+    height: 40px;
+}
+
+#header_in .sub>li:hover {
+    background-color: #111;
+}
+
+#header_in .sub>li>a {
+    color: #fff;
+    line-height: 40px;
+}
+
+#header_in .nav_back {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 1300px;
+    height: 300px;
+    background-color: #272727;
+    z-index: 900;
+
+}
+
+/* 메인슬라이드 */
+#main{
+    width: 100%;
+    height: 400px;
+    
+}
+.swiper {
+    border-radius: 5px;
+    width: 100%;
+    height: 400px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    color: #fff;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 컨텐츠 */
+#contents {
+    width: 100%;
+    padding: 40px 0 100px;
+   
+}
+#contents_in{
+    margin: 0 auto;
+    width: 1300px;
+    height: auto;
+    padding-bottom: 100px;
+    background-color: rgb(215, 215, 215);
+}
+.contents_ttl{
+    padding: 20px 0 0 40px;
+    font-size: 27px;
+    width: 100%;
+    height: 50px;
+    
+}
+
+.musemu_seoul{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 80%;
+    height: 580px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.text_info_area{
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.text_box{
+    margin-top: 30px;
+    padding: 20px 0 0 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 430px;
+    background-color: #fff;
+}
+.text_box .museum_name{
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+.text_box .sub_title{
+    padding-bottom: 40px;
+    font-size: 20px;
+    color: rgb(135, 135, 135);
+    font-weight: 700;
+}
+.text_box>ul>li{
+    padding-bottom:20px ;
+}
+.image_info_area{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.iamge_box{
+    overflow: hidden;
+    width: 90%;
+    height: 90%;
+    background-color: yellowgreen;
+}
+.iamge_box img{
+
+}
+.button_area{
+    margin:30px 0 0 85px;
+    width: 80%;
+    height: 58px;
+    
+}
+.button_area button{
+    cursor: pointer;
+    margin-left: 20px;
+    background: none; border: 1px solid #666;
+    border-radius: 5px;
+    color: #666;
+    width: 135px;
+    height: 58px;
+}
+/* 하단 */
+#footer {
+    width: 100%;
+   
+
+}
+
+#footer_top {
+    width: 100%;
+    height: 250px;
+    background-color: #3a3333;
+}
+
+#footer_top .top_in {
+    margin: 0 auto;
+    padding: 20px 0 0 20px;
+    box-sizing: border-box;
+    width: 1300px;
+    height: 200px;
+    background-color: #3a3333;
+}
+
+#footer_top .top_in .company_info {
+    float: left;
+}
+
+#footer_top .top_in .company_info p {
+    padding-top: 3px;
+    font-size: 13px;
+    color: #adadad;
+}
+
+#footer_top .top_in .sub_mn {
+    float: right;
+    width: 625px;
+    height: 200px;
+}
+
+#footer_top .top_in .sub_mn_li {
+    margin-left: 150px;
+}
+
+#footer_top .top_in .sub_mn_li>li {
+    float: left;
+    margin-left: 60px;
+}
+
+#footer_top .top_in .foot_li>li>a {
+    color: #adadad;
+    font-size: 12px;
+}
+
+#footer_bottom {
+
+    width: 100%;
+    height: 127px;
+
+}
+
+#footer_bottom .bottom_in {
+    margin: 0 auto;
+    padding-top: 15px;
+    box-sizing: border-box;
+    width: 1300px;
+    height: 127px;
+
+}

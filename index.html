@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/jquery.js"></script>
+    <title>국립현대미술관미술관소개</title>
+
+</head>
+<body>
+    <div id="wrap">
+        <!-- 상단 -->
+        <header id="header">
+            <section id="header_in">
+                <h1 class="logo"><a href=""><img src="./imags/logo.png" alt=""></a></h1>
+                <ul class="infomn">
+                    <li><a href="">로그인 | 회원가입</a></li>
+                    <li><a href="">검색</a></li>
+                    <li><a href="">KR</a></li>
+                </ul>
+                <div class="nav_back"></div>
+                <nav class="nav">
+                    <ul>
+                        <li>
+                            <a href="">소개</a>
+                            <ul class="sub">
+                                <li><a href="">menu1</a></li>
+                                <li><a href="">menu2</a></li>
+                                <li><a href="">menu3</a></li>
+                                <li><a href="">menu4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">전시</a>
+                            <ul class="sub">
+                                <li><a href="">menu1</a></li>
+                                <li><a href="">menu2</a></li>
+                                <li><a href="">menu3</a></li>
+                                <li><a href="">menu4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">관람·참여</a>
+                            <ul class="sub">
+                                <li><a href="">menu1</a></li>
+                                <li><a href="">menu2</a></li>
+                                <li><a href="">menu3</a></li>
+                                <li><a href="">menu4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">디지털미술관</a>
+                            <ul class="sub">
+                                <li><a href="">menu1</a></li>
+                                <li><a href="">menu2</a></li>
+                                <li><a href="">menu3</a></li>
+                                <li><a href="">menu4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">미술연구</a>
+                            <ul class="sub">
+                                <li><a href="">menu1</a></li>
+                                <li><a href="">menu2</a></li>
+                                <li><a href="">menu3</a></li>
+                                <li><a href="">menu4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">소장품</a>
+                            <ul class="sub">
+                                <li><a href="">menu1</a></li>
+                                <li><a href="">menu2</a></li>
+                                <li><a href="">menu3</a></li>
+                                <li><a href="">menu4</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <!-- 메인슬라이드 -->
+        <section id="main">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="imags/slider_sub01.png"  ></div>
+                <div class="swiper-slide"><img src="imags/slider_sub02.png"></div>
+                <div class="swiper-slide"><img src="https://placeimg.com/640/480/any"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                }, breakpoinst: {
+                    1200: {
+                        sliderPerView: 3,
+                    }, 1000: {
+                        sliderPerView: 3,
+                    }, 640: {
+                        sliderPerView: 3,
+                    },
+
+                }
+            });
+
+        </script>
+        </section>
+        <!-- 컨텐츠 -->
+        <section id="contents" >
+            <article id="contents_in">
+                <div class="contents_ttl">
+                    <h2>미술관 소개</h2>
+                </div>
+                <div class="musemu_seoul">
+                    <div class="text_info_area">
+                        <div class="text_box">
+                            <h3 class="museum_name">서울</h3>
+                            <p class="sub_title">도시와 역사와 동시대미술이 호흡하는<br/>
+                            열린 미술관</p>
+                            <p>관람시간</p>
+                            <ul>
+                                <li>
+                                    <p>월, 화, 목, 금, 일요일</p>
+                                    <span>10:00-18:00</span>
+                                </li>
+                                <li>
+                                    <p>수,토요일</p>
+                                    <p>10:00-21:00</p>
+                                    <span>(18:00-21:00 야간개장)
+                                    ※ 휴관일: 1월1일, 설날, 추석</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="button_area">  
+                            <button>진행중인 전시</button>
+                            <button>오시는 길</button>
+                        </div>
+                        
+                    </div>
+                    <div class="image_info_area">
+                        <div class="iamge_box">
+                            <img src="./imags/seoul_sub .jpg" alt="서울">
+                        </div>
+                    </div>
+                </div>
+                <div class="musemu_seoul">
+                    <div class="text_info_area">
+                        <div class="text_box">
+                            <h3 class="museum_name">서울</h3>
+                            <p class="sub_title">도시와 역사와 동시대미술이 호흡하는<br />
+                                열린 미술관</p>
+                            <p>관람시간</p>
+                            <ul>
+                                <li>
+                                    <p>월, 화, 목, 금, 일요일</p>
+                                    <span>10:00-18:00</span>
+                                </li>
+                                <li>
+                                    <p>수,토요일</p>
+                                    <p>10:00-21:00</p>
+                                    <span>(18:00-21:00 야간개장)
+                                        ※ 휴관일: 1월1일, 설날, 추석</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="button_area">
+                            <button>진행중인 전시</button>
+                            <button>오시는 길</button>
+                        </div>
+                    
+                    </div>
+                    <div class="image_info_area">
+                        <div class="iamge_box">
+                            <img src="./imags/gawchun_sub.jpg" alt="과천">
+                        </div>
+                    </div>
+                </div><div class="musemu_seoul">
+                    <div class="text_info_area">
+                        <div class="text_box">
+                            
+                            <h3 class="museum_name">서울</h3>
+                            <p class="sub_title">도시와 역사와 동시대미술이 호흡하는<br />
+                                열린 미술관</p>
+                            <p>관람시간</p>
+                            <ul>
+                                <li>
+                                    <p>월, 화, 목, 금, 일요일</p>
+                                    <span>10:00-18:00</span>
+                                </li>
+                                <li>
+                                    <p>수,토요일</p>
+                                    <p>10:00-21:00</p>
+                                    <span>(18:00-21:00 야간개장)
+                                        ※ 휴관일: 1월1일, 설날, 추석</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="button_area">
+                            <button>진행중인 전시</button>
+                            <button>오시는 길</button>
+                        </div>
+                    
+                    </div>
+                    <div class="image_info_area">
+                        <div class="iamge_box">
+                            <img src="./imags/ducksugung_sub.jpg"  alt="덕수궁">
+                        </div>
+                    </div>
+                </div>
+                <div class="musemu_seoul">
+                    <div class="text_info_area">
+                        <div class="text_box">
+                            <h3 class="museum_name">서울</h3>
+                            <p class="sub_title">도시와 역사와 동시대미술이 호흡하는<br />
+                                열린 미술관</p>
+                            <p>관람시간</p>
+                            <ul>
+                                <li>
+                                    <p>월, 화, 목, 금, 일요일</p>
+                                    <span>10:00-18:00</span>
+                                </li>
+                                <li>
+                                    <p>수,토요일</p>
+                                    <p>10:00-21:00</p>
+                                    <span>(18:00-21:00 야간개장)
+                                        ※ 휴관일: 1월1일, 설날, 추석</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="button_area">
+                            <button>진행중인 전시</button>
+                            <button>오시는 길</button>
+                        </div>
+                    
+                    </div>
+                    <div class="image_info_area">
+                        <div class="iamge_box">
+                            <img src="imags/chungji_sub.jpg" alt="청주미술관">
+                        </div>
+                    </div>
+                </div>
+                
+            </article>
+        </section>
+        <!-- 하단 -->
+        <footer id="footer">
+            <section id="footer_top">
+                <div class="top_in">
+                    <div class="company_info">
+                        <p>표지:윤범모,사업자 등록번호:138-83-00313</p>
+                        <p>대표전화:(서울)02-3701-9500,</p>
+                        <p>(과천)02-2188-6000,</p>
+                        <p>(덕수궁)02-2022-0600,</p>
+                        <p>(청주)043-261-1400</p>
+                        <p>ⓒ2021 National Museum of Modern and Contemporary Art,Korea</p>
+                    </div>
+                    <div class="sub_mn">
+                        <ul class="sub_mn_li">
+                            <li>
+                                <ul class="foot_li">
+                                    <li><a href="">인스타그램</a></li>
+                                    <li><a href="">유튜브</a></li>
+                                    <li><a href="">페이스북</a></li>
+                                    <li><a href="">트위터</a></li>
+                                    <li><a href="">네이버</a></li>
+                                    <li><a href="">네이버포스</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="foot_li">
+                                    <li><a href="">개인정보 처리방침</a></li>
+                                    <li><a href="">이용약관</a></li>
+                                    <li><a href="">저작권정책</a></li>
+                                    <li><a href="">국민신문고</a></li>
+                                    <li><a href="">정보공개</a></li>
+                                    <li><a href="">클린신고센터</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="foot_li">
+                                    <li><a href="">미술관 소개</a></li>
+                                    <li><a href="">새소식</a></li>
+                                    <li><a href="">채용</a></li>
+                                    <li><a href="">보도자료</a></li>
+                                    <li><a href="">후원</a></li>
+                                    <li><a href="">자원봉사</a></li>
+                                    <li><a href="">시설대관·복제신청</a></li>
+                                    <li><a href="">FAQ</a></li>
+                                    <li><a href="">사이트맵</a></li>
+                                    <li><a href="">국립현대미술관</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="footer_bottom">
+                <div class="bottom_in">
+                    <h2><img src="./imags/logo.png" alt="국립현대미술관로고"></h2>
+                </div>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
